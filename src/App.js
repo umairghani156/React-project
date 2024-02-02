@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p style={{letterSpacing: "3px",fontSize: "28px", color: "#efcc00 "}}>-FAST REACT PIZZA CO . -</p>
+      <p style={{fontWeight:"500",margin: "1px auto",borderBottom: "2px solid black",borderTop:"2px solid black",padding: "3px 0", width:"95px"}}>OUR MENU</p>
+      <p style={{fontWeight:"500", opacity:"0.6"}}>Authentic Italian cuisine. 6 creative dishes to choose from. All from<br/> our stone oven, all organic, all delicious.</p>
     </div>
   );
 }
